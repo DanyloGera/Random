@@ -1,0 +1,174 @@
+body {
+  background-image: url(./background.jpg);
+  background-size: cover;
+
+}
+.head {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.heading{
+  background-color: #e8efff;
+  text-align: center;
+  padding: 20px;
+  border: #2f266e 5px solid;
+  border-radius: 100px;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+ margin-top: 80px;
+}
+.task1 {
+  background-color: #e8efff;
+  border: #2f266e 5px solid;
+  border-radius: 50px;
+  width: 500px;
+  margin-right: 10px;
+  text-align: center;
+}
+.task2 {
+  background-color: #e8efff;
+  border: #2f266e 5px solid;
+  border-radius: 50px;
+  width: 500px;
+  margin-left: 10px;
+  text-align: center;
+}
+p {
+  font-family: 'Goldman', cursive;
+  font-size: 18pt;
+}
+.btn {
+  height: 50px;
+  width: 300px;
+  margin-bottom:  50px;
+}
+.stsk {
+  padding-top: 20px;
+}
+.a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+.diraction {
+display: flex;
+justify-content: center;
+}
+.players-put {
+  border: #e8efff 5px double;
+  width: 700px;
+padding: 20px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+h3 {
+  color: #fff;
+  text-align: center;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.players {
+  width: 300px;
+}
+#output {
+  color: #fff;
+}
+
+
+
+.win {
+  display: flex;
+  justify-content: center;
+
+}
+.winers {
+  border: #fff 5px dashed;
+  margin-top: 70px;
+  padding: 50px;
+}
+#numText {
+  color: #fff;
+}
+.your {
+  display: flex;
+    flex-direction: row;
+}
+.your-num {
+
+  background-color: #fff;
+  width: auto;
+  height: auto;
+}
+
+
+
+
+.form {
+margin-top: 5%;
+}
+form {
+
+  width: 600px;
+  margin: 0 auto;
+border-radius: 30px;
+}
+
+
+.div {
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+fieldset {
+  background: #3e82f0;
+  border: 5px solid #2562c4;
+  border-radius: 30px;
+}
+
+legend {
+text-align: center;
+  padding: 10px;
+  background: #2562c4;
+  color: cyan;
+  border-radius: 30px;
+}
+
+
+#pasNum-put {
+  width: 30%;
+  margin-left: 15px;
+}
+#pasSmlLetter-put {
+  width: 30%;
+  margin-right:  5px;
+}
+#pasBgLetter-put {
+  width: 30%;
+    margin-right:  20px;
+}
+#mix-put {
+width: 30%;
+margin-left:   60px;
+}
+.bat {
+  position: relative;
+  right: 20px;
+}
+footer {
+  position: absolute;
+  bottom: 40%;
+}
