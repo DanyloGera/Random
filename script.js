@@ -93,7 +93,7 @@ var youNum = "/integers/?num=1&min=1&max=5&col=3&base=10&format=plain&rnd=yes";
 var xhr = new XMLHttpRequest();
 function getYourNum() {
   xhr.open('GET', server+youNum);
-  // xhr.onerror=function(e){alert("error");}
+  xhr.onerror=function(e){alert("error");}
   xhr.onload=function() {
     document.getElementById('your-num').innerHTML = this.responseText
   }
